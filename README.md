@@ -26,7 +26,8 @@ A proposta representa um cenário comum em grandes empresas e bancos, onde siste
 
 O sistema é composto por 4 microsserviços independentes, um API Gateway e uma infraestrutura com Kafka e MySQL, todos orquestrados via Docker Compose.
 
-<img width="962" height="707" alt="Arquitetura" src="https://github.com/user-attachments/assets/afc10b9a-ddb2-49f5-87ad-eb31cfbb3e54" />
+<img width="928" height="761" alt="image" src="https://github.com/user-attachments/assets/d1e126ba-d7e9-4d87-8df6-8f020bba2222" />
+
 
 
 Cada microsserviço possui seu próprio banco de dados, garantindo independência, baixo acoplamento e maior facilidade de escalabilidade.
