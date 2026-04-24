@@ -26,18 +26,8 @@ A proposta representa um cenário comum em grandes empresas e bancos, onde siste
 
 O sistema é composto por 4 microsserviços independentes, um API Gateway e uma infraestrutura com Kafka e MySQL, todos orquestrados via Docker Compose.
 
-```
-Usuario Externo
-      ↓
-  API Gateway (porta 8080)
-      ↓
-ClienteService (porta 8081)
-      ↓
-    Kafka
-   ↙  ↓  ↘
-ContaService  TransacaoService  PagamentoService
-(porta 8082)  (porta 8083)      (porta 8084)
-```
+<img width="962" height="707" alt="Arquitetura" src="https://github.com/user-attachments/assets/afc10b9a-ddb2-49f5-87ad-eb31cfbb3e54" />
+
 
 Cada microsserviço possui seu próprio banco de dados, garantindo independência, baixo acoplamento e maior facilidade de escalabilidade.
 
