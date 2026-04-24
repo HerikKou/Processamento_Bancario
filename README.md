@@ -19,7 +19,7 @@ A proposta representa um cenário comum em grandes empresas e bancos, onde siste
 - Docker e Docker Compose
 - JWT (Auth0)
 - JUnit 5 e Mockito
-
+- Em breve Datadog e AWS
 ---
 
 ## Arquitetura
