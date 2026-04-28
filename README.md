@@ -1,4 +1,4 @@
-# Gateway de Pagamentos Simplificado
+# Gateway de Pagamentos 
 
 ## Sobre o Projeto
 
